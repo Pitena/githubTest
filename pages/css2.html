@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .a {
+      color: red;
+    }
+    .a .c {
+      color: yellow;
+    }
+    .a > .b {
+      color: #666;
+    }
+    .a + .c {
+      color: blueviolet;
+    }
+    .b {
+      color: blue;
+    }
+    .c {
+      color: chartreuse;
+    }
+  </style>
+  <body>
+    <div class="a">
+      aaaa
+      <div class="b">
+        bbbb
+        <div class="b inner-b">这是A下面的下面的B</div>
+        <div class="c">ccc</div>
+      </div>
+    </div>
+    <div class="c">这是盒子外的c</div>
+  </body>
+</html>
